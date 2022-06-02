@@ -1,0 +1,80 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #00000;
+  background-color: #ffffff;
+  padding: 1rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+#title {
+  margin-bottom: 2rem;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+#left-side {
+  width: 20rem;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.control input {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 0.3rem;
+}
+
+#datetime-container {
+  display: flex;
+}
+
+#time, #date {
+  width: fit-content;
+}
+
+#date {
+  margin-right: 9.1rem;
+}
+
+#submit-btn {
+  color: white;
+  background: black;
+  font-weight: bold;
+  padding: 0.5rem;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: #ffff;
+  width: 5rem;
+}
+
+#cites {
+  border: 3px solid black;
+  border-radius: 10px;
+  min-height: 15rem;
+  max-width: auto;
+  margin-top: 50px;
+  padding: 1rem;
+  /* background: ; */
+}
+
