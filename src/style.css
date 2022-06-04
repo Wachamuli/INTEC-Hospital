@@ -21,10 +21,6 @@
 
 #left-side {
   width: 20rem;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* flex-direction: column; */
 }
 
 .control {
@@ -68,13 +64,32 @@
   width: 5rem;
 }
 
-#cites {
+.delete-container {
+  margin-top: 20px;
+}
+
+.input {
+  padding: 0.4rem;
+  width: 3rem;
+}
+
+#delete-btn {
+  background: red;
+  color: white;
+  font-weight: bold;
+}
+
+
+#queue {
   border: 3px solid black;
   border-radius: 10px;
   min-height: 15rem;
   max-width: auto;
   margin-top: 50px;
   padding: 1rem;
-  /* background: ; */
 }
 
+.trash-icon {
+  padding: 1rem;
+  color: red;
+}

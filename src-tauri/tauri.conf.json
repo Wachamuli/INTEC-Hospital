@@ -12,7 +12,22 @@
   },
   "tauri": {
     "allowlist": {
-      "all": true
+      "all": true,
+      "fs": {
+        "all": true,
+        "writeFile": true,
+        "readFile": true,
+        "copyFile": true,
+        "createDir": true,
+        "renameFile": true,
+        "readDir": true,
+        "removeDir": true,
+        "removeFile": true,
+        "scope": ["$APP/*", "$DESKTOP/*"]
+      },
+      "path": {
+        "all": true
+      }
     },
     "bundle": {
       "active": true,
@@ -55,7 +70,7 @@
     },
     "windows": [
       {
-        "fullscreen": false,
+        "fullscreen": true,
         "height": 600,
         "resizable": true,
         "title": "Beautiful Beards",
